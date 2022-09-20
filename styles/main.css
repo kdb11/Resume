@@ -45,3 +45,18 @@ li{
     align-items: center;
     gap: 4em;
 }
+
+.myname{
+    font-size: 3em;
+    line-height: 1em;
+}
+
+#bio, a{
+    font-weight: 300;
+}
+
+#profile--pic{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
