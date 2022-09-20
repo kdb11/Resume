@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     font-family:'Sora', sans-serif;
 }
  
-:root{
+:root {
     --mainTextColor: #000;
     --secondaryTextColor:(51 51 51);
     --mainLinkColor: #0da2b8;
@@ -14,49 +14,74 @@
     --mainBgColor: rgb(255 255 255);
 }
 
-p, span, li{
+p, span, li {
     color: var(--secondaryTextColor);
     font-size: 1em;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--mainLinkColor);
     font-weight: 500;
     font-size: 500;
 }
 
-li{
+li {
     line-height: 1.9em;
 }
 
-.container--main{
+.container--main {
     max-width: 700px;
     margin: 0 auto;
 }
 
-.section--page{
+.section--page {
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-#wrapper--hero{
+#wrapper--hero {
     display: flex;
     align-items: center;
     gap: 4em;
 }
 
-.myname{
+.myname {
     font-size: 3em;
     line-height: 1em;
 }
 
-#bio, a{
+#bio, a {
     font-weight: 300;
 }
 
-#profile--pic{
+#profile--pic {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+#email {
+    color: var(--mainTextColor);
+}
+
+#social--media {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+#social--media a{
+    font-size: 0.9em;
+    color: var(--secondaryTextColor);
+    transition: 0.3s;
+}
+
+#social--media a:hover{
+    color: var(--mainLinkColor);
+}
+
+li {
+    list-style: none;
 }
