@@ -1,0 +1,31 @@
+.resumeBg--body {
+    background-color: black;
+}
+
+.sourcecode--resume {
+    color: limegreen;
+    width: 700px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    text-size-adjust: auto;
+}
+
+.sourcecode--text{
+    color: limegreen;
+    font-size: 1.5rem;
+    width: 700px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .sourcecode--text, .sourcecode--resume{
+        font-size: 1.1em;
+    }
+}
