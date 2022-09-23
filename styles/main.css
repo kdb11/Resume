@@ -79,7 +79,7 @@ body {
     background: rgba( 0, 0, 0, 0.38);
 }
 
-.download{
+.menu--container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -137,16 +137,24 @@ li {
     gap: 4em;
 }
 
+#main--content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .section--education, .section--techstack, .section--webexperience {
-    /* padding-top: 2em;
+    padding-top: 2em;
     border: 2px solid black;
     padding: 0.5em 1em;
     border-radius: 5px;
     width: max-content;
     height: max-content;
     background: rgba( 0, 0, 0, 0.08);
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin: 10px;
 }
+
 
 /* ---------------------------------------------------------------
 ------------------------------------------------------------------
@@ -154,13 +162,22 @@ li {
 ------------------------------------------------------------------
 ------------------------------------------------------------------ */
 
+.header2 {
+    padding-top: 5px;
+}
+
+.header3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .myname {
     font-size: 3em;
     line-height: 1em;
 }
 
 #bio, a {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #profile--pic {
@@ -218,8 +235,99 @@ li {
 
 /* ---------------------------------------------------------------
 ------------------------------------------------------------------
----------------------------ProjectSite----------------------------
+---------------------------WEBEXPERIENCE--------------------------
 ------------------------------------------------------------------
 ------------------------------------------------------------------
 ------------------------------------------------------------------ */
 
+.section--webexperience {
+    width: 20.3rem;
+    height: 11.7rem;
+}
+
+.click--source { 
+    font-size: 0.8rem;
+    margin-top: -10px;
+    padding-left: 5px;
+}
+
+/* ---------------------------------------------------------------
+------------------------------------------------------------------
+----------------------------MOBILE-VIEW---------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------ */
+
+@media screen and (max-width: 800px) {
+    #wrapper--hero{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #profile--pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .myname {
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #email {
+        text-align: center;
+    }
+
+    .section--page {
+        padding-top: 1em;
+    }
+
+    .section--education, .section--techstack, .section--webexperience {
+        width: 95%;
+        text-align: center;
+    }
+
+    .card--techstack {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        text-align: center;
+    }
+
+    .menu--container{
+        gap: 0.5em;
+    }
+
+    .section--contact {
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------------------
+------------------------------------------------------------------
+----------------------------MOBILE-VIEWSMALL----------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------ */
+
+@media screen and (max-width: 658px) {
+
+    .download {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    .button__text {
+        font-size: 0.7rem;
+    }
+    .button__icon {
+        font-size: 0.9rem;
+    }
+
+    .card--techstack {
+        width: 47.5%;
+    }
+}
