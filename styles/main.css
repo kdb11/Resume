@@ -145,7 +145,7 @@ li {
 
 .section--education, .section--techstack, .section--webexperience {
     padding-top: 2em;
-    border: 2px solid black;
+    border: 2px solid rgb(156, 156, 156);
     padding: 0.5em 1em;
     border-radius: 5px;
     width: max-content;
