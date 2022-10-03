@@ -10,9 +10,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   align-items: center;
-  -webkit-text-size-adjust: auto;
-     -moz-text-size-adjust: auto;
-          text-size-adjust: auto;
+  text-size-adjust: auto;
 }
 
 .sourcecode--text {
@@ -30,4 +28,4 @@
   .sourcecode--text, .sourcecode--resume {
     font-size: 1.1em;
   }
-}/*# sourceMappingURL=second.css.map */
+}

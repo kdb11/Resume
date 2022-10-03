@@ -53,6 +53,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
+    position: relative;
 }
 
 .button:hover {
@@ -155,6 +156,10 @@ li {
     margin: 10px;
 }
 
+.section--contact {
+    position: absolute;
+    display: grid;
+}
 
 /* ---------------------------------------------------------------
 ------------------------------------------------------------------
