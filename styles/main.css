@@ -181,17 +181,17 @@ li {
     line-height: 1em;
 }
 
-#bio, a {
+.bio, a {
     font-weight: 400;
 }
 
-#profile--pic {
+.profile--pic {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
 
-#email {
+.email {
     color: var(--mainTextColor);
 }
 
@@ -269,7 +269,7 @@ li {
         gap: 1em;
     }
 
-    #profile--pic {
+    .profile--pic {
         width: 200px;
         height: 200px;
     }
@@ -280,7 +280,7 @@ li {
         text-align: center;
     }
 
-    #email {
+    .email {
         text-align: center;
     }
 
