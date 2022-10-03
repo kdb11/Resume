@@ -8,7 +8,6 @@
  
 :root {
     --mainTextColor: #000;
-    --secondaryTextColor:(51 51 51);
     --mainLinkColor: #0da2b8;
     --mainBorderColor: rgb(218 218 218);
     --mainBgColor: rgb(255 255 255);
@@ -48,7 +47,6 @@ body {
     outline: none;
     border-radius: 5px;
     overflow: hidden;
-    font-size: 'Quicksand', sans-serif;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -95,7 +93,6 @@ ion-icon {
   }
 
 #menu--bar {
-    background-color: none;
     width: 100%;
 }
 
@@ -114,7 +111,6 @@ a {
     text-decoration: none;
     color: var(--mainLinkColor);
     font-weight: 500;
-    font-size: 500;
 }
 
 li {
